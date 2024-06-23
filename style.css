@@ -79,7 +79,7 @@ body * {
 #switch {
   position: relative;
   width: 64px;
-  
+
   margin: 4px auto;
 }
 #switch button {
@@ -177,4 +177,16 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assents/bg-desktop-light.jpg);
+  }
 }
