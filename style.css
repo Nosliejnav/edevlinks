@@ -43,7 +43,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*width: 100%;
   max-width: 588px;*/
 
